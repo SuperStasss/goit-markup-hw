@@ -398,7 +398,7 @@
 			<p class="footer__margin">Subscribe</p>
 			<div class="footer__subscribe-form">
 				<label for="e-mail"></label>
-				<input type="email" name="e-mail" id="e-mail" placeholder="E-mail">
+				<input type="email" name="email" id="e-mail" placeholder="E-mail">
 				<button class="subscribe-btn" type="submit">Subscribe
 					<svg>
 						<use xlink:href="/img/svg/sprite.svg#icon-icon-send"></use>
@@ -443,9 +443,13 @@
 					<textarea name="comment" id="comment" placeholder="Text input" rows="5">
                     </textarea>
 				</div>
+				<div class="checkbox">
+					<input type="checkbox" name="check_policy" id="policy">
+					<label for="policy">I accept the terms and conditions of the <a href="#">Privacy Policy</a></label>
+				</div>
 				<span class="checkbox-custom"></span>
-				<button type="submit">
-					Відправити
+				<button class="modal__btn" type="submit">
+					Send
 				</button>
 			</form>
 		</div>

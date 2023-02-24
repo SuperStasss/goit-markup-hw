@@ -694,7 +694,7 @@ a:active {
 
 .textarea-input {
 	height : 138px;
-
+	margin-bottom : 16px;
 	}
 
 
@@ -714,4 +714,19 @@ textarea::placeholder {
 	letter-spacing : 0.04em;
 	font-size      : 12px;
 	color          : rgba(117, 117, 117, 0.5);
+	}
+
+.checkbox{
+	display : flex;
+	margin-bottom : 24px;
+	}
+.checkbox input{
+	height: 16px;
+	width : 16px;
+	margin-right: 8px;
+	}
+.modal__btn{
+	margin: 0 auto;
+	width: 169px;
+	height: 56px;
 	}
